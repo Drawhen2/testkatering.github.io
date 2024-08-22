@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Katering</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Menu Katering Lezat</h1>
+        <nav>
+            <a href="index.html">Beranda</a>
+            <a href="menu.html">Menu</a>
+            <a href="cart.html">Keranjang</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Daftar Menu</h2>
+        <ul id="menu-list">
+            <li>
+                <h3>Menu 1</h3>
+                <p>Deskripsi menu 1.</p>
+                <span>Rp 50.000</span>
+                <button onclick="addToCart('Menu 1', 50000)">Tambah ke Keranjang</button>
+            </li>
+            <li>
+                <h3>Menu 2</h3>
+                <p>Deskripsi menu 2.</p>
+                <span>Rp 75.000</span>
+                <button onclick="addToCart('Menu 2', 75000)">Tambah ke Keranjang</button>
+            </li>
+            <!-- Tambahkan lebih banyak menu sesuai kebutuhan -->
+        </ul>
+    </main>
+    <footer>
+        <p>&copy; 2024 Katering Lezat. Semua hak dilindungi.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Checkout</h1>
+        <nav>
+            <a href="index.html">Beranda</a>
+            <a href="menu.html">Menu</a>
+            <a href="cart.html">Keranjang</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Konfirmasi Pesanan</h2>
+        <form id="checkout-form">
+            <p id="order-details"></p>
+            <p>Total Harga: <span id="total-price"></span></p>
+            <button type="button" onclick="sendToWhatsApp()">Kirim Pesanan ke WhatsApp</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2024 Katering Lezat. Semua hak dilindungi.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
